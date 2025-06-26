@@ -64,8 +64,8 @@ def proses_geojson_batch(geojson_path, start_index=0, batch_size=5000):
                 'Verifikasi Nama': "Cocok" if cocok else "Tidak Cocok",
                 'Verifikasi Final': ver_final,
                 'Nama yang Ditemukan Sekitar': all_text.strip(),
-                'jenis_infrastruktur': "Bendung"
-                'Kab/kota': "Bendung"#nanti diganti 
+                'jenis_infrastruktur': "Bendung",
+                'Kab/kota': "Bendung", #nanti diganti
                 'Provinsi': "Bendung"#nanti diganti dengan kode yang lain 
             })
         except Exception as e:
