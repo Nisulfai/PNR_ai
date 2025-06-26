@@ -1,0 +1,6 @@
+API_KEY = "AIzaSyA3ETjoCJGlzKYslASFtEe4_TYC9EYcq7o"
+MODEL_PATH = r"D:/pnr_nitip/JembatanNasionalYolo8v.pt"
+GOOGLE_IMG_FOLDER = r"D:/pnr_nitip/Bendung"
+TOPDOWN_IMG_FOLDER = GOOGLE_IMG_FOLDER + "/topdown"
+BBOX_FOLDER = TOPDOWN_IMG_FOLDER + "/with_bbox"
+BATCH_FOLDER = r"D:/pnr_nitip/hasil_batch_bendung"
