@@ -4,11 +4,11 @@ import os
 import glob
 from shapely.geometry import shape
 from haversine import haversine
-from utils.maps_api import get_place_coords
-from utils.image_handler import get_street_view_image, get_top_down_image
-from utils.ocr import detect_text
-from utils.yolo import detect_yolo
 from config import *
+from utils_Map_API import get_place_coords
+from utils_Image_HandLER import get_street_view_image, get_top_down_image
+from utils_ocr import detect_text
+from utils_yolo import detect_yolo
 
 os.makedirs(GOOGLE_IMG_FOLDER, exist_ok=True)
 os.makedirs(TOPDOWN_IMG_FOLDER, exist_ok=True)
