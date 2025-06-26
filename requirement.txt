@@ -1,0 +1,10 @@
+duckdb
+pandas
+shapely
+haversine
+requests
+pillow
+ultralytics
+pytesseract
+opencv-python
+numpy
